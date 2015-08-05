@@ -1,0 +1,21 @@
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="/js/bootstrap.js"></script>
+<script src="/js/highlight.pack.js"></script>
+<script src="/js/jquery.linkify-1.0.js"></script>
+<script>
+  $(document).ready(function() {
+    // Highlight syntax
+    $('pre code').each(function(i, block) {
+      hljs.highlightBlock(block);
+    });
+
+    // Add hyperlinks
+    jQuery.extend(jQuery.fn.linkify.plugins, {
+      spotify: {
+        re: /spotify:(artist|app|album|local|search|track|user):([:%\+\w]+)/g,
+        tmpl: '<a href="spotify:$1:$2">spotify:$1:$2</a>'
+      }
+    });
+    $('code.json').linkify();
+</script>

@@ -1,0 +1,23 @@
+<div class="row">
+  <div class="dl-horizontal">
+    <dd><h3 id="{{ endpoint.anchor }}">{{ endpoint.display_name }}</h3></dd>
+  </div>
+</div>
+<div class="row">
+  <div class="dl-horizontal horiz-padding">
+    <dt>method</dt>
+    <dd class="vert-padding"><small class="label" id="method-{{ endpoint.method }}">{{ endpoint.method|upper }}</small></dd>
+  </div>
+</div>
+<div class="row">
+  <div class="dl-horizontal horiz-padding">
+    <dt>path</dt>
+    <dd class="vert-padding"><code>{{ endpoint.path }}</code></dd>
+  </div>
+</div>
+<div class="row">
+  <div class="dl-horizontal">
+    <dt>description</dt>
+    <dd class="vert-padding">{{ endpoint.description }}</dd>
+  </div>
+</div>

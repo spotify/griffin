@@ -1,0 +1,33 @@
+<div class="row">
+    <div class="dl-horizontal">
+      <dt>responses</dt>
+      {% for r in endpoint.resp %}
+      <dd>
+        <dt class="second-level">http code</dt>
+        <dd>{{ r.code }}</dd>
+        {% if r.description.raw is not none %}
+          <dt class="second-level">description</dt>
+          <dd>{{ r.description.raw|markdown }}</dd>
+        {% endif %}
+        {% if r.body %}
+          <dt class="second-level">mime type</dt>
+          <dd><code>{{ r.body[0].mime_type }}</code></dd>
+          {% if r.body[0].schema is not none %}
+              <dt class="second-level">schema</dt>
+              <dd class="vert-padding">
+                <div class="toggle-code-wrapper">
+                  <span class="toggle-code" data-toggle="collapse" data-target="#collapseResp" aria-expanded="false" aria-controls="collapseResp">
+                    Toggle
+                  </span>
+                </div>
+                <pre class="pre-x-scrollable collapse" id="collapseResp" style="min-height:45px;overflow-y:hidden;"><code class="json">{{ r.body[0].schema|jsonify|e }}</code></pre></dd>
+          {% endif %}
+        {% endif %}
+      </dd>
+      {% if not loop.last and loop.length > 1 %}
+        <dt></dt>
+        <dd><hr/></dd>
+      {% endif %}
+      {% endfor %}
+    </div>
+</div>

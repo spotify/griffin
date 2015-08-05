@@ -1,0 +1,68 @@
+/*******************
+    REST specific
+********************/
+
+
+#method-get {
+    background-color: {{ rest_colors["get"] }};
+}
+
+#method-post {
+    background-color: {{ rest_colors.post }} ;
+}
+
+#method-delete {
+    background-color: {{ rest_colors.delete }};
+}
+
+#method-put {
+    background-color: {{ rest_colors.put }};
+}
+
+#method-head {
+    background-color: {{ rest_colors.head }};
+}
+
+.#method-patch {
+    background-color: {{ rest_colors.patch }};
+}
+
+#method-options {
+    background-color: {{ rest_colors.options }};
+}
+
+#method-trace {
+    background-color: {{ rest_colors.trace }};
+}
+
+#method-connect {
+    background-color: {{ rest_colors.connect }};
+}
+
+
+/**************************
+  Simple theme-y stuff
+**************************/
+
+@font-face {
+font-family: {{ fonts.body.name }};
+src: url("{{ fonts.body.path }}") format("{{ fonts.body.type }}");
+}
+
+@font-face {
+font-family: {{ fonts.headers.name }};
+src: url("{{ fonts.headers.path}}") format("{{ fonts.headers.type }}");
+}
+
+#grif-navbar {
+    background-color: {{ navbar_color }};
+    color: #fff;
+}
+
+body {
+    font-family: {{ fonts.body.name }};
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: {{ fonts.headers.name }};
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json-schema.org/draft-03/schema",
+  "type": "object",
+  "requred": true,
+  "properties": {
+    "albums": {
+        "type": "array",
+        "description": "List of album objects in JSON format.",
+        "items": {
+          "$ref": "album/full.schema.json"
+        }
+    }
+  }
+}

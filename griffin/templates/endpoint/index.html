@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block documentation %}
+    {% include "endpoint/general.html" %}
+
+    {# authentication #}
+    {% if endpoint.secured %}
+      {% include "endpoint/secured.html" %}
+    {% endif %}
+
+    {# parameters #}
+    {% if endpoint.u_params %}
+      {% include "endpoint/uri_params.html" %}
+    {% endif %}
+    {% if endpoint.q_params %}
+      {% include "endpoint/query_params.html" %}
+    {% endif %}
+    {% if endpoint.f_params %}
+      {% include "endpoint/form_params.html" %}
+    {% endif %}
+    {% if endpoint.headers %}
+      {% include "endpoint/headers.html" %}
+    {% endif %}
+    {% if endpoint.body %}
+      {% include "endpoint/body.html" %}
+    {% endif %}
+    {% if endpoint.resp %}
+      {% include "endpoint/responses.html" %}
+    {% endif %}
+    <hr style="width:102%;"/>
+    {% include "endpoint/example.html" %}
+{% endblock %}

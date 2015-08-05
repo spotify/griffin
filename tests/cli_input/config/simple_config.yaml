@@ -1,0 +1,26 @@
+# All things in templates that are "site.{{ FOO }}"
+title: Spotify API
+base_url: "https://localhost:5050"
+
+description: Auto-generated documentation from Griffin
+author: Super Awesome Developer
+canonical_url: https://api.example.com/documentation
+
+# relative path to base_url
+favicon: assets/images/favicon.ico
+
+# brand for navbar
+brand_image: assets/images/brand.png
+
+# "preserve" order on RAML, "abc" for alphabetical,
+# or "zyx" for reverse alphabetical
+endpoint_order: preserve
+
+
+theme_path: "themes"
+
+# options: default, ...
+theme_name: "default"
+
+template_dir: templates
+static_dir: static

@@ -1,0 +1,13 @@
+<ul class="nav nav-sidebar">
+  {% for collection, endpoints in endpoints.iteritems() %}
+       <h5 class="sidebar-header">{{ collection|lower }}</h5>
+    {% for endpoint in endpoints %}
+      {% if endpoint.method %}
+        <li>
+          <span class="label" id="method-{{ endpoint.method }}">{{ endpoint.method|upper }}</span>
+          <a href="{{ site.base_url }}/{{ endpoint.anchor }}/">{{ endpoint.display_name }}</a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+</ul>

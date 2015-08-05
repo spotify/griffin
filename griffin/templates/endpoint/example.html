@@ -1,0 +1,26 @@
+<div class="row">
+  <div class="dl-horizontal horiz-padding">
+    <dt>example</dt>
+    <dd>
+      <dt class="second-level">request</dt>
+
+      <dd{% if endpoint.secured and None not in endpoint.secured %} data-toggle="tooltip" data-placement="top" title="valid oauth token required"{% endif %}>
+        <pre class="kbd"><code class="bash curl-preview">curl -X {{ endpoint.method|upper }} {{ endpoint.curl }}</code></pre>
+      </dd>
+      {% if endpoint.resp %}
+        {% if endpoint.resp[0].body %}
+          {% if endpoint.resp[0].body[0].example is not none %}
+            <dt class="second-level">response</dt>
+            <dd>
+              <div class="toggle-code-wrapper">
+                <span class="toggle-code" data-toggle="collapse" data-target="#collapseRespExample" aria-expanded="false" aria-controls="collapseRespExample">
+                  Toggle
+                </span>
+              </div>
+            <pre class="pre-x-scrollable example collapse" id="collapseRespExample" style="min-height:45px;overflow-y:hidden;"><code class="json">{{ endpoint.resp[0].body[0].example|jsonify|e }}</code></pre></dd>
+          {% endif %}
+        {% endif %}
+      {% endif %}
+    </dd>
+  </div>
+</div>

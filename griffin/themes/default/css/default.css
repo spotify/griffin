@@ -1,0 +1,298 @@
+/**********************************
+   Default Griffin Theme
+**********************************/
+
+/* custom colors and shiz */
+@import url("custom.css");
+
+/***************
+    General
+****************/
+
+.site-content {
+  flex: 1;
+  padding: 40px;
+  padding-bottom: 100px;
+}
+
+.main {
+  padding: 20px;
+  padding-top: 50px;
+}
+@media (min-width: 768px) {
+  .main {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+
+
+/***************
+    Navbar
+****************/
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+}
+
+.navbar-logo > img {
+    height: 30px;
+    padding-left: 5px;
+}
+
+.navbar-brand {
+    height: inherit;
+}
+
+.navbar a {
+    color: #fff;
+}
+
+/***************
+    Sidebar
+****************/
+/* Hide for mobile, show later */
+.sidebar {
+  display: none;
+}
+@media (min-width: 768px) {
+  .sidebar {
+    position: fixed;
+    top: 51px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: inline-block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    background-color: #fff;
+    border: 0;
+  }
+}
+
+/* Sidebar navigation */
+.nav-sidebar {
+  margin-right: -21px; /* 20px padding + 1px border */
+  margin-bottom: 20px;
+}
+.nav-sidebar > h5 {
+  padding-left: 5px;
+}
+.nav-sidebar > li > a {
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
+  color: #000;
+}
+
+.sidebar-header {
+    font-variant: small-caps;
+}
+
+.nav > li {
+    padding-left: 20px;
+}
+
+.nav > li > a {
+    display: inline-flex;
+    padding-left: 5px;
+}
+
+.label {
+    min-width: 30px;
+    padding-bottom: .2em;
+}
+
+
+
+/***************
+    Misc
+****************/
+
+.param {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.horiz-padding {
+    margin-bottom: 5px;
+}
+
+.param-desc {
+    margin-left: 3%;
+    padding-bottom: 5px;
+}
+#table-param-attr {
+    margin-top: 4px;
+    margin-left: 10px;
+}
+
+#griffin-body {
+  margin-top: 55px;
+}
+
+#griffin-required {
+  font-weight: 300;
+  color: #FF6437;
+}
+
+
+/*Hacky way to make sure anchors are pushed down because of the sticky navbar*/
+h1[id], h2[id], h3[id], h4[id], h5[id] {
+    padding-top: 100px;
+    margin-top: -100px;
+    display: inline-block; /* required for webkit browsers */
+}
+
+
+.pre-x-scrollable {
+  overflow: auto;
+  word-wrap: normal;
+  white-space: pre;
+  padding-right: 10px;
+}
+
+.pre-x-scrollable code {
+  white-space: pre;
+}
+
+.dl-horizontal > dt {
+    font-variant: small-caps;
+    font-size: 18px;
+}
+
+.vert-padding {
+    padding-top: 5px;
+}
+
+
+/* curl request example */
+.kbd {
+  color:            #eaeaea;
+  background-color: #5a5a5a;
+  border-color:     #3b3b3b;
+  font-size: 13px;
+  white-space: normal;
+}
+
+
+.kbd > .hljs {
+    color: #fff;
+}
+
+pre.kbd > code > span.hljs-string {
+    color: #19E68C;
+}
+
+
+.example {
+    overflow-y: auto;
+}
+
+
+dt.second-level {
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 85%;
+    margin-top: 2px;
+}
+
+dd.second-level {
+    margin-bottom: 15px;
+}
+
+code {
+    border: 1px solid #ccc;
+}
+
+pre code {
+    border: 0;
+}
+
+
+dt.third-level {
+    margin-left: 100px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+dd.third-level {
+    padding-left: 90px;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+
+/* Param attrs */
+
+td.param-name {
+    text-align: right;
+    padding-right: 8px;
+    line-height: 1.8;
+    font-variant: small-caps;
+    font-size: 110%;
+    font-weight: 400;
+}
+
+td.param-value {
+    padding-left: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+
+.collapse-code {
+  display: block;
+  position: relative;
+  color: #000;
+  background-color: #eee;
+  z-index: 10;
+  left: -68px;
+  padding: 5px 6px 4px 7px;
+  margin: 0;
+  cursor: pointer;
+  border-radius: 0 4px 0 4px;
+  border: 1px solid #bbb;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+
+.collapse {
+  display: block;
+}
+
+.collapse.in {
+  display: block;
+}
+
+.toggle-code-wrapper {
+  display: block;
+  position: relative;
+}
+
+.toggle-code {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #000;
+  background-color: #eee;
+  z-index: 10;
+  padding: 5px 6px 4px 7px;
+  margin: 0;
+  cursor: pointer;
+  border-radius: 0 4px 0 4px;
+  border: 1px solid #bbb;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}

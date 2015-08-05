@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if site.title %}{{ site.title }} - {% endif %}{{ meta.title }}</title>
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="{{ site.base_url }}/assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="{{ site.base_url }}/assets/css/hljs.css">
+  <link rel="stylesheet" href="{{ site.base_url }}/assets/css/default.css">
+  {% if site.description %}<meta name="description" content="{{ site.description }}">{% endif %}
+  {% if site.author %}<meta name="author" content="{{ site.author }}">{% endif %}
+  {% if site.canonical_url %}<link rel="canonical" href="{{ site.canonical_url }}">{% endif %}
+  {% if site.favicon %}<link rel="shortcut icon" href="{{ site.base_url }}/{{ site.static_dir }}/{{ site.favicon }}">
+  {% else %}<link rel="icon" type="image/png" href="{{ site.base_url }}/{{ site.static_dir }}/images/favicon.png">{% endif %}
+
+</head>
+<body>
+
+  {% include "navbar.html" %}
+  <div class="container-fluid site-content">
+    <div class="row">
+      <div class="col-sm-3 col-md-3 col-lg-3 sidebar">{% include "collection_sidebar.html" %}</div>
+      <div class="col-sm-9 col-md-9 col-lg-9 col-md-offset-3 col-lg-offset-3 main">{% block documentation %}{% endblock %}</div>
+    </div>
+  </div>
+
+  <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+  <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="{{ site.base_url }}/assets/js/bootstrap.js"></script>
+  <script src="{{ site.base_url }}/assets/js/highlight.pack.js"></script>
+  <script src="{{ site.base_url }}/assets/js/jquery.linkify-1.0.js"></script>
+  <script>
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    });
+    $(function() {
+      $('.collapse').collapse()
+    });
+  </script>
+  <script>
+    $(document).ready(function() {
+      // Highlight syntax
+      $('pre code').each(function(i, block) {
+        hljs.highlightBlock(block);
+      });
+    });
+  </script>
+
+</body>
+</html>

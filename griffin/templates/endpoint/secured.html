@@ -1,0 +1,30 @@
+<div class="row">
+  <div class="dl-horizontal">
+    <dt>secured by</dt>
+    {% for scheme in endpoint.secured %}
+      {% if scheme is none %}
+        <dd{% if loop.first %} class="vert-padding"{% endif %}>None</dd>
+      {% elif scheme is string %}
+        <dd{% if loop.first %} class="vert-padding"{% endif %}>{{ scheme }}</dd>
+      {% elif scheme is dictionary %}
+        {% for key, value in scheme.iteritems() %}
+          <dd{% if loop.first %} class="vert-padding"{% endif %}>
+            {{ key|schemes }}  {% if value is not dictionary %}{{ value }}{% endif %}
+              {% if value is dictionary %}
+                {% for k, v in value.iteritems() %}
+                  {% if k == 'scopes' and v %}
+                    <dt class="second-level">scopes</dt>
+                    {% for scope in v %}<dd>{{ scope }}</dd>{% endfor %}
+                  {% endif %}
+                {% endfor %}
+              {% endif %}
+          </dd>
+        {% endfor %}
+      {% elif scheme is a_list %}
+        {% for item in endpoint.secured %}
+          <dd {% if loop.first %}class="vert-padding"{% endif %}>{{ item }}</dd>
+        {% endfor %}
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>

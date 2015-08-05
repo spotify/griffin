@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-03/schema",
+  "type": "object",
+  "properties": {
+    "range_start": {
+        "type": "integer",
+        "description": "The position of the first track to be reordered.",
+        "required": true
+    },
+    "range_length": {
+        "type": "integer",
+        "description": "Optional. The amount of tracks to be reordered. The range of tracks to be reordered begins from the range_start position, and includes the range_length subsequent tracks.",
+        "required": false,
+        "default": 1
+    },
+    "insert_before": {
+      "type": "integer",
+      "description": "The position where the tracks should be inserted. To reorder the tracks to the end of the playlist, simply set insert_before to the position after the last track.",
+      "required": true
+    },
+    "snapshot_id": {
+      "type": "string",
+      "required": false,
+      "description": "The playlist's snapshot ID against which you want to make the changes."
+    }
+  }
+}

@@ -1,0 +1,641 @@
+{
+  "href" : "https://api.spotify.com/v1/users/econchick/playlists?offset=0&limit=20",
+  "items" : [ {
+    "collaborative" : true,
+    "external_urls" : {
+      "spotify" : "http://open.spotify.com/user/nlogax/playlist/4554gtaMFIsia1mHJQfaWT"
+    },
+    "href" : "https://api.spotify.com/v1/users/nlogax/playlists/4554gtaMFIsia1mHJQfaWT",
+    "id" : "4554gtaMFIsia1mHJQfaWT",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/9071b0c84be069d0d65906891042951885415419476c6b20e03ad15763eb36894f51efd321eceb4069fa66a70d0b1bafc13fe8de89caf881bc58821212fc0ea63cadee23919c7e23209ffd99a4f69c76",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/9071b0c84be069d0d65906891042951885415419476c6b20e03ad15763eb36894f51efd321eceb4069fa66a70d0b1bafc13fe8de89caf881bc58821212fc0ea63cadee23919c7e23209ffd99a4f69c76",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/9071b0c84be069d0d65906891042951885415419476c6b20e03ad15763eb36894f51efd321eceb4069fa66a70d0b1bafc13fe8de89caf881bc58821212fc0ea63cadee23919c7e23209ffd99a4f69c76",
+      "width" : 60
+    } ],
+    "name" : "Hax 2015",
+    "owner" : {
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/nlogax"
+      },
+      "href" : "https://api.spotify.com/v1/users/nlogax",
+      "id" : "nlogax",
+      "type" : "user",
+      "uri" : "spotify:user:nlogax"
+    },
+    "public" : false,
+    "snapshot_id" : "uYckzC7ESxnPKUDqhEQSPKTsTI+8nf+UEYI0WpRbQU1y3Mwx98pIqVnTS1Rv/LZt",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/users/nlogax/playlists/4554gtaMFIsia1mHJQfaWT/tracks",
+      "total" : 70
+    },
+    "type" : "playlist",
+    "uri" : "spotify:user:nlogax:playlist:4554gtaMFIsia1mHJQfaWT"
+  }, {
+    "collaborative" : false,
+    "external_urls" : {
+      "spotify" : "http://open.spotify.com/user/digster.fm/playlist/2oSAB15ngVoltjpBhcYO5x"
+    },
+    "href" : "https://api.spotify.com/v1/users/digster.fm/playlists/2oSAB15ngVoltjpBhcYO5x",
+    "id" : "2oSAB15ngVoltjpBhcYO5x",
+    "images" : [ {
+      "height" : 300,
+      "url" : "https://i.scdn.co/image/d97f12628d210c9cc69c40941faf9875c897b6be",
+      "width" : 300
+    } ],
+    "name" : "DANCEFLOOR ft. Avicii | Zedd, Tiesto, Kiesza, Disclosure, Duke Dumont, Calvin Harris",
+    "owner" : {
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/digster.fm"
+      },
+      "href" : "https://api.spotify.com/v1/users/digster.fm",
+      "id" : "digster.fm",
+      "type" : "user",
+      "uri" : "spotify:user:digster.fm"
+    },
+    "public" : true,
+    "snapshot_id" : "9jD6QcFaQ6IVXmIazp/93OmfGM9NAEK3u66lzfRziQ0/RoDskFZQHlddOe0YGRne",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/users/digster.fm/playlists/2oSAB15ngVoltjpBhcYO5x/tracks",
+      "total" : 97
+    },
+    "type" : "playlist",
+    "uri" : "spotify:user:digster.fm:playlist:2oSAB15ngVoltjpBhcYO5x"
+  }, {
+    "collaborative" : false,
+    "external_urls" : {
+      "spotify" : "http://open.spotify.com/user/econchick/playlist/0qocPtFwXmtaQFk6fTZIBu"
+    },
+    "href" : "https://api.spotify.com/v1/users/econchick/playlists/0qocPtFwXmtaQFk6fTZIBu",
+    "id" : "0qocPtFwXmtaQFk6fTZIBu",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/224d3df6d765537b4e4815156bc3441a14dbdb5a8007d70fbfd39c9e5992fa037c2428bfabd29e89d8e78b7a8fb94ad1f3b8bae372f04b261dd9df7f793bd87ce75aa09e928cf2c100a89d99c7977fe3",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/224d3df6d765537b4e4815156bc3441a14dbdb5a8007d70fbfd39c9e5992fa037c2428bfabd29e89d8e78b7a8fb94ad1f3b8bae372f04b261dd9df7f793bd87ce75aa09e928cf2c100a89d99c7977fe3",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/224d3df6d765537b4e4815156bc3441a14dbdb5a8007d70fbfd39c9e5992fa037c2428bfabd29e89d8e78b7a8fb94ad1f3b8bae372f04b261dd9df7f793bd87ce75aa09e928cf2c100a89d99c7977fe3",
+      "width" : 60
+    } ],
+    "name" : "insert a name",
+    "owner" : {
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/econchick"
+      },
+      "href" : "https://api.spotify.com/v1/users/econchick",
+      "id" : "econchick",
+      "type" : "user",
+      "uri" : "spotify:user:econchick"
+    },
+    "public" : true,
+    "snapshot_id" : "qSgd6vGJWXCS4Gmnal1sGlxP4ZNKcUtvVpAqKVSokgb5I5Ti2z62RQy68aJMsga4",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/users/econchick/playlists/0qocPtFwXmtaQFk6fTZIBu/tracks",
+      "total" : 21
+    },
+    "type" : "playlist",
+    "uri" : "spotify:user:econchick:playlist:0qocPtFwXmtaQFk6fTZIBu"
+  }, {
+    "collaborative" : false,
+    "external_urls" : {
+      "spotify" : "http://open.spotify.com/user/spotify/playlist/1Wci2mmHVAwLLxV4cVrhNl"
+    },
+    "href" : "https://api.spotify.com/v1/users/spotify/playlists/1Wci2mmHVAwLLxV4cVrhNl",
+    "id" : "1Wci2mmHVAwLLxV4cVrhNl",
+    "images" : [ {
+      "height" : 300,
+      "url" : "https://i.scdn.co/image/ac85c0ad015ac55be8111db01a1dd16a8785faa9",
+      "width" : 300
+    } ],
+    "name" : "Pop Goes Classical",
+    "owner" : {
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/spotify"
+      },
+      "href" : "https://api.spotify.com/v1/users/spotify",
+      "id" : "spotify",
+      "type" : "user",
+      "uri" : "spotify:user:spotify"
+    },
+    "public" : true,
+    "snapshot_id" : "LdOCKzi9urLY7NgaK9PXVWuQlmeBXhn8prXrkoXLYeArCrnH6MEbSFgu62/6/3I4",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/users/spotify/playlists/1Wci2mmHVAwLLxV4cVrhNl/tracks",
+      "total" : 39
+    },
+    "type" : "playlist",
+    "uri" : "spotify:user:spotify:playlist:1Wci2mmHVAwLLxV4cVrhNl"
+  }, {
+    "collaborative" : false,
+    "external_urls" : {
+      "spotify" : "http://open.spotify.com/user/spotify/playlist/0jIhh6Y6qLmkTbjAEURw73"
+    },
+    "href" : "https://api.spotify.com/v1/users/spotify/playlists/0jIhh6Y6qLmkTbjAEURw73",
+    "id" : "0jIhh6Y6qLmkTbjAEURw73",
+    "images" : [ {
+      "height" : 300,
+      "url" : "https://i.scdn.co/image/d099dff0b3331f60669e72c819137958ab0a6e91",
+      "width" : 300
+    } ],
+    "name" : "Electro Dance Fitness",
+    "owner" : {
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/spotify"
+      },
+      "href" : "https://api.spotify.com/v1/users/spotify",
+      "id" : "spotify",
+      "type" : "user",
+      "uri" : "spotify:user:spotify"
+    },
+    "public" : true,
+    "snapshot_id" : "M7JYnwYFgZZlvOgKLvpuM5t3chTK7WGPyIRhDBlgMk4jEOnATCzDdCuQqGtTmCyp",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/users/spotify/playlists/0jIhh6Y6qLmkTbjAEURw73/tracks",
+      "total" : 36
+    },
+    "type" : "playlist",
+    "uri" : "spotify:user:spotify:playlist:0jIhh6Y6qLmkTbjAEURw73"
+  }, {
+    "collaborative" : false,
+    "external_urls" : {
+      "spotify" : "http://open.spotify.com/user/spotify/playlist/5lzEAI33SAzsaHsG1BgdGR"
+    },
+    "href" : "https://api.spotify.com/v1/users/spotify/playlists/5lzEAI33SAzsaHsG1BgdGR",
+    "id" : "5lzEAI33SAzsaHsG1BgdGR",
+    "images" : [ {
+      "height" : 300,
+      "url" : "https://i.scdn.co/image/ec3d6cd87b3b0d133db0ad6a7eef29d074854543",
+      "width" : 300
+    } ],
+    "name" : "A Sudden Rainstorm",
+    "owner" : {
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/spotify"
+      },
+      "href" : "https://api.spotify.com/v1/users/spotify",
+      "id" : "spotify",
+      "type" : "user",
+      "uri" : "spotify:user:spotify"
+    },
+    "public" : true,
+    "snapshot_id" : "nQloRSBzg6iQn/z+GdHJ1NXYEZyrppSEHSBKtS3Em3USTUeeRVJU5VZvjF7updqC",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/users/spotify/playlists/5lzEAI33SAzsaHsG1BgdGR/tracks",
+      "total" : 22
+    },
+    "type" : "playlist",
+    "uri" : "spotify:user:spotify:playlist:5lzEAI33SAzsaHsG1BgdGR"
+  }, {
+    "collaborative" : false,
+    "external_urls" : {
+      "spotify" : "http://open.spotify.com/user/spotify_uk_/playlist/6Jx9TYReeElpkvNWg8AzWm"
+    },
+    "href" : "https://api.spotify.com/v1/users/spotify_uk_/playlists/6Jx9TYReeElpkvNWg8AzWm",
+    "id" : "6Jx9TYReeElpkvNWg8AzWm",
+    "images" : [ {
+      "height" : 300,
+      "url" : "https://i.scdn.co/image/36ac0011bfe88c329bb4d32fe10043b082fb734d",
+      "width" : 300
+    } ],
+    "name" : "Electronic Concentration",
+    "owner" : {
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/spotify_uk_"
+      },
+      "href" : "https://api.spotify.com/v1/users/spotify_uk_",
+      "id" : "spotify_uk_",
+      "type" : "user",
+      "uri" : "spotify:user:spotify_uk_"
+    },
+    "public" : true,
+    "snapshot_id" : "htKZgZ2Cp9Dwkz5R5v5jHY2jfqxMExg5rr78Bl79aNh8q21uGkI8zKmGqyC9LUre",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/users/spotify_uk_/playlists/6Jx9TYReeElpkvNWg8AzWm/tracks",
+      "total" : 60
+    },
+    "type" : "playlist",
+    "uri" : "spotify:user:spotify_uk_:playlist:6Jx9TYReeElpkvNWg8AzWm"
+  }, {
+    "collaborative" : false,
+    "external_urls" : {
+      "spotify" : "http://open.spotify.com/user/sonymusicitaly/playlist/2Bdxl0Ktqe8Iu565yfmw3O"
+    },
+    "href" : "https://api.spotify.com/v1/users/sonymusicitaly/playlists/2Bdxl0Ktqe8Iu565yfmw3O",
+    "id" : "2Bdxl0Ktqe8Iu565yfmw3O",
+    "images" : [ {
+      "height" : 300,
+      "url" : "https://i.scdn.co/image/9e485d796273cd0b33088ae922c009aa0a1871e6",
+      "width" : 300
+    } ],
+    "name" : "Empire Italia",
+    "owner" : {
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/sonymusicitaly"
+      },
+      "href" : "https://api.spotify.com/v1/users/sonymusicitaly",
+      "id" : "sonymusicitaly",
+      "type" : "user",
+      "uri" : "spotify:user:sonymusicitaly"
+    },
+    "public" : true,
+    "snapshot_id" : "GmW7/HaMee5/5hSioDVcgq0iL3H/zcrNXhIDxhcaCoQ94BQlTD+GB2gFjaIM3Mfc",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/users/sonymusicitaly/playlists/2Bdxl0Ktqe8Iu565yfmw3O/tracks",
+      "total" : 68
+    },
+    "type" : "playlist",
+    "uri" : "spotify:user:sonymusicitaly:playlist:2Bdxl0Ktqe8Iu565yfmw3O"
+  }, {
+    "collaborative" : true,
+    "external_urls" : {
+      "spotify" : "http://open.spotify.com/user/ivionday/playlist/27zA7ZZrgV9CmCm7bFctNP"
+    },
+    "href" : "https://api.spotify.com/v1/users/ivionday/playlists/27zA7ZZrgV9CmCm7bFctNP",
+    "id" : "27zA7ZZrgV9CmCm7bFctNP",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/6942bd5867ecfc5f68abf2e50584a55b3bbd3eed7a5737aad3b48f803d52f26809a594da70fa5d423f4b9cb17bcb658dd4bbf5db9ad21a3883f932a3d7f2a8e1ce695d531ff17787a1019c2e3cd06bf1",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/6942bd5867ecfc5f68abf2e50584a55b3bbd3eed7a5737aad3b48f803d52f26809a594da70fa5d423f4b9cb17bcb658dd4bbf5db9ad21a3883f932a3d7f2a8e1ce695d531ff17787a1019c2e3cd06bf1",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/6942bd5867ecfc5f68abf2e50584a55b3bbd3eed7a5737aad3b48f803d52f26809a594da70fa5d423f4b9cb17bcb658dd4bbf5db9ad21a3883f932a3d7f2a8e1ce695d531ff17787a1019c2e3cd06bf1",
+      "width" : 60
+    } ],
+    "name" : "Spotify SF - Friday, April 3",
+    "owner" : {
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/ivionday"
+      },
+      "href" : "https://api.spotify.com/v1/users/ivionday",
+      "id" : "ivionday",
+      "type" : "user",
+      "uri" : "spotify:user:ivionday"
+    },
+    "public" : false,
+    "snapshot_id" : "6f6mXeXLhwjohCA9kCi+G5AbXlqjcOvND+iLK1+kl6x5XmJI4yN3OI96+4dSL8Cx",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/users/ivionday/playlists/27zA7ZZrgV9CmCm7bFctNP/tracks",
+      "total" : 17
+    },
+    "type" : "playlist",
+    "uri" : "spotify:user:ivionday:playlist:27zA7ZZrgV9CmCm7bFctNP"
+  }, {
+    "collaborative" : false,
+    "external_urls" : {
+      "spotify" : "http://open.spotify.com/user/spotify/playlist/7MhpUDMj75nMdu80foLkDq"
+    },
+    "href" : "https://api.spotify.com/v1/users/spotify/playlists/7MhpUDMj75nMdu80foLkDq",
+    "id" : "7MhpUDMj75nMdu80foLkDq",
+    "images" : [ {
+      "height" : 300,
+      "url" : "https://i.scdn.co/image/f7b9e508a06e852965ebf6c84587ef337e59d6d5",
+      "width" : 300
+    } ],
+    "name" : "Discover Weekly",
+    "owner" : {
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/spotify"
+      },
+      "href" : "https://api.spotify.com/v1/users/spotify",
+      "id" : "spotify",
+      "type" : "user",
+      "uri" : "spotify:user:spotify"
+    },
+    "public" : false,
+    "snapshot_id" : "1K6RIfdRVuO001vynIu5TcAuNvvMCJayC/Mr+QD4NJ2fqU5suXbIt0PbIpu49kQ9",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/users/spotify/playlists/7MhpUDMj75nMdu80foLkDq/tracks",
+      "total" : 30
+    },
+    "type" : "playlist",
+    "uri" : "spotify:user:spotify:playlist:7MhpUDMj75nMdu80foLkDq"
+  }, {
+    "collaborative" : false,
+    "external_urls" : {
+      "spotify" : "http://open.spotify.com/user/digster.fm/playlist/6VqHgPWRBiGj8P8McsFQRm"
+    },
+    "href" : "https://api.spotify.com/v1/users/digster.fm/playlists/6VqHgPWRBiGj8P8McsFQRm",
+    "id" : "6VqHgPWRBiGj8P8McsFQRm",
+    "images" : [ {
+      "height" : 300,
+      "url" : "https://i.scdn.co/image/7980083d966edcd82b1392a1f543b394fb247b9c",
+      "width" : 300
+    } ],
+    "name" : "ELECTRONIC BLISS | Avicii, Deadmau5, Zedd, Porter Robinson, Daft Punk, Dirty South, Tiesto",
+    "owner" : {
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/digster.fm"
+      },
+      "href" : "https://api.spotify.com/v1/users/digster.fm",
+      "id" : "digster.fm",
+      "type" : "user",
+      "uri" : "spotify:user:digster.fm"
+    },
+    "public" : true,
+    "snapshot_id" : "eM8CNNRy4nBzwwqpD8OCk0ZgtfJHt3QgTp82DYYXhMqkV2NIdtl7E1l++qnvf8B1",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/users/digster.fm/playlists/6VqHgPWRBiGj8P8McsFQRm/tracks",
+      "total" : 147
+    },
+    "type" : "playlist",
+    "uri" : "spotify:user:digster.fm:playlist:6VqHgPWRBiGj8P8McsFQRm"
+  }, {
+    "collaborative" : false,
+    "external_urls" : {
+      "spotify" : "http://open.spotify.com/user/spotify/playlist/2UvU40JqHebEP7aqTB7B35"
+    },
+    "href" : "https://api.spotify.com/v1/users/spotify/playlists/2UvU40JqHebEP7aqTB7B35",
+    "id" : "2UvU40JqHebEP7aqTB7B35",
+    "images" : [ {
+      "height" : 300,
+      "url" : "https://i.scdn.co/image/f25fa9d9def0be30fbf5acb02a7f79e9795b531c",
+      "width" : 300
+    } ],
+    "name" : "Welcome to the House",
+    "owner" : {
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/spotify"
+      },
+      "href" : "https://api.spotify.com/v1/users/spotify",
+      "id" : "spotify",
+      "type" : "user",
+      "uri" : "spotify:user:spotify"
+    },
+    "public" : true,
+    "snapshot_id" : "ceHIMiVOodgIB0WxaJZmomIOiHbcqOXI6blQfQ3RChyxpA8EqlM+LRBEozzXuKo1",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/users/spotify/playlists/2UvU40JqHebEP7aqTB7B35/tracks",
+      "total" : 83
+    },
+    "type" : "playlist",
+    "uri" : "spotify:user:spotify:playlist:2UvU40JqHebEP7aqTB7B35"
+  }, {
+    "collaborative" : false,
+    "external_urls" : {
+      "spotify" : "http://open.spotify.com/user/spotify/playlist/4Jt88XxhP2Jldzh1t3QbyF"
+    },
+    "href" : "https://api.spotify.com/v1/users/spotify/playlists/4Jt88XxhP2Jldzh1t3QbyF",
+    "id" : "4Jt88XxhP2Jldzh1t3QbyF",
+    "images" : [ {
+      "height" : 300,
+      "url" : "https://i.scdn.co/image/5e181194e386c38f2590ce99a47f8a8e234f3c2c",
+      "width" : 300
+    } ],
+    "name" : "Dance Workout",
+    "owner" : {
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/spotify"
+      },
+      "href" : "https://api.spotify.com/v1/users/spotify",
+      "id" : "spotify",
+      "type" : "user",
+      "uri" : "spotify:user:spotify"
+    },
+    "public" : true,
+    "snapshot_id" : "Qd3yb8SIy8+0own6tJyYerleOkvRguTazJfYWAI1qICrF0DRq0Z3Ggg/KcOK44gp",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/users/spotify/playlists/4Jt88XxhP2Jldzh1t3QbyF/tracks",
+      "total" : 96
+    },
+    "type" : "playlist",
+    "uri" : "spotify:user:spotify:playlist:4Jt88XxhP2Jldzh1t3QbyF"
+  }, {
+    "collaborative" : false,
+    "external_urls" : {
+      "spotify" : "http://open.spotify.com/user/spotify/playlist/7c8DrfxBH6rkGNFaplx1Wo"
+    },
+    "href" : "https://api.spotify.com/v1/users/spotify/playlists/7c8DrfxBH6rkGNFaplx1Wo",
+    "id" : "7c8DrfxBH6rkGNFaplx1Wo",
+    "images" : [ {
+      "height" : 300,
+      "url" : "https://i.scdn.co/image/731585826581c9d527267e5e5837cd58d56754bf",
+      "width" : 300
+    } ],
+    "name" : "The Complete Chopin",
+    "owner" : {
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/spotify"
+      },
+      "href" : "https://api.spotify.com/v1/users/spotify",
+      "id" : "spotify",
+      "type" : "user",
+      "uri" : "spotify:user:spotify"
+    },
+    "public" : false,
+    "snapshot_id" : "sVICuZ6iWKpUPzdMGGFfQN0eSmo/4EI7x3svmoJe7wGIq0m7+kFT1hUURuuXnew+",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/users/spotify/playlists/7c8DrfxBH6rkGNFaplx1Wo/tracks",
+      "total" : 262
+    },
+    "type" : "playlist",
+    "uri" : "spotify:user:spotify:playlist:7c8DrfxBH6rkGNFaplx1Wo"
+  }, {
+    "collaborative" : false,
+    "external_urls" : {
+      "spotify" : "http://open.spotify.com/user/spotify_germany/playlist/2nKFnGNFvHX9hG5Kv7Bm3G"
+    },
+    "href" : "https://api.spotify.com/v1/users/spotify_germany/playlists/2nKFnGNFvHX9hG5Kv7Bm3G",
+    "id" : "2nKFnGNFvHX9hG5Kv7Bm3G",
+    "images" : [ {
+      "height" : 300,
+      "url" : "https://i.scdn.co/image/a8fd88f95150b169be9c2b0c842d2d73177e8277",
+      "width" : 300
+    } ],
+    "name" : "Beats To Think To",
+    "owner" : {
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/spotify_germany"
+      },
+      "href" : "https://api.spotify.com/v1/users/spotify_germany",
+      "id" : "spotify_germany",
+      "type" : "user",
+      "uri" : "spotify:user:spotify_germany"
+    },
+    "public" : true,
+    "snapshot_id" : "44AaJy7MFL2nZwLQRtejy1NpS/MO/SJirDXgfykzC65lndwYP+UjDxLD8mSFPYEx",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/users/spotify_germany/playlists/2nKFnGNFvHX9hG5Kv7Bm3G/tracks",
+      "total" : 48
+    },
+    "type" : "playlist",
+    "uri" : "spotify:user:spotify_germany:playlist:2nKFnGNFvHX9hG5Kv7Bm3G"
+  }, {
+    "collaborative" : false,
+    "external_urls" : {
+      "spotify" : "http://open.spotify.com/user/spotify/playlist/3hpgM1U3bD6kvo7wJubQ8z"
+    },
+    "href" : "https://api.spotify.com/v1/users/spotify/playlists/3hpgM1U3bD6kvo7wJubQ8z",
+    "id" : "3hpgM1U3bD6kvo7wJubQ8z",
+    "images" : [ {
+      "height" : 300,
+      "url" : "https://i.scdn.co/image/9d29649804a2ab012f206f92acb75bed345ceb55",
+      "width" : 300
+    } ],
+    "name" : "Mellow Beats",
+    "owner" : {
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/spotify"
+      },
+      "href" : "https://api.spotify.com/v1/users/spotify",
+      "id" : "spotify",
+      "type" : "user",
+      "uri" : "spotify:user:spotify"
+    },
+    "public" : true,
+    "snapshot_id" : "/LB3olRhtwlN0CgPLn+WXkOqIdGvdBKzwwNpw5IIIwmk8mbHsWCo136XoGroNkMA",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/users/spotify/playlists/3hpgM1U3bD6kvo7wJubQ8z/tracks",
+      "total" : 55
+    },
+    "type" : "playlist",
+    "uri" : "spotify:user:spotify:playlist:3hpgM1U3bD6kvo7wJubQ8z"
+  }, {
+    "collaborative" : false,
+    "external_urls" : {
+      "spotify" : "http://open.spotify.com/user/spotify/playlist/65y98W0UItf73DJKVgylTP"
+    },
+    "href" : "https://api.spotify.com/v1/users/spotify/playlists/65y98W0UItf73DJKVgylTP",
+    "id" : "65y98W0UItf73DJKVgylTP",
+    "images" : [ {
+      "height" : 300,
+      "url" : "https://i.scdn.co/image/1c1c92bb84c2c0544245f7d43aa30650c1ce4e1f",
+      "width" : 300
+    } ],
+    "name" : "ESM | Electronic Study Music",
+    "owner" : {
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/spotify"
+      },
+      "href" : "https://api.spotify.com/v1/users/spotify",
+      "id" : "spotify",
+      "type" : "user",
+      "uri" : "spotify:user:spotify"
+    },
+    "public" : true,
+    "snapshot_id" : "sZ1SDw0fPQdzu8Vc7ZQ7VCtGC68j2Z31ypTUpwd9ow60ZNteuzpjnde23k/9PeTj",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/users/spotify/playlists/65y98W0UItf73DJKVgylTP/tracks",
+      "total" : 68
+    },
+    "type" : "playlist",
+    "uri" : "spotify:user:spotify:playlist:65y98W0UItf73DJKVgylTP"
+  }, {
+    "collaborative" : false,
+    "external_urls" : {
+      "spotify" : "http://open.spotify.com/user/econchick/playlist/6MaXpT5hOg6e3dzpbjFw5M"
+    },
+    "href" : "https://api.spotify.com/v1/users/econchick/playlists/6MaXpT5hOg6e3dzpbjFw5M",
+    "id" : "6MaXpT5hOg6e3dzpbjFw5M",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/9f5cc0080167d818cb840283c8a7f926bf53dbc96d19c10797ec8441f4711494aa7dd2fed13c01e9ee321bb3c5167a5a9fde7301862ed8518ca71da16909e57fdfd834fc9c6c7ecd4ee8ac5350b9ca17",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/9f5cc0080167d818cb840283c8a7f926bf53dbc96d19c10797ec8441f4711494aa7dd2fed13c01e9ee321bb3c5167a5a9fde7301862ed8518ca71da16909e57fdfd834fc9c6c7ecd4ee8ac5350b9ca17",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/9f5cc0080167d818cb840283c8a7f926bf53dbc96d19c10797ec8441f4711494aa7dd2fed13c01e9ee321bb3c5167a5a9fde7301862ed8518ca71da16909e57fdfd834fc9c6c7ecd4ee8ac5350b9ca17",
+      "width" : 60
+    } ],
+    "name" : "early bird yoga",
+    "owner" : {
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/econchick"
+      },
+      "href" : "https://api.spotify.com/v1/users/econchick",
+      "id" : "econchick",
+      "type" : "user",
+      "uri" : "spotify:user:econchick"
+    },
+    "public" : true,
+    "snapshot_id" : "nRCIDzQ2NiIqPKa0apDLs8YtQVjtChGhEqANoS/4WxnhNwC44JeRoIq/CuJDobsq",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/users/econchick/playlists/6MaXpT5hOg6e3dzpbjFw5M/tracks",
+      "total" : 15
+    },
+    "type" : "playlist",
+    "uri" : "spotify:user:econchick:playlist:6MaXpT5hOg6e3dzpbjFw5M"
+  }, {
+    "collaborative" : false,
+    "external_urls" : {
+      "spotify" : "http://open.spotify.com/user/magerleagues/playlist/49N3gyVa3KrHyeScC5MMiJ"
+    },
+    "href" : "https://api.spotify.com/v1/users/magerleagues/playlists/49N3gyVa3KrHyeScC5MMiJ",
+    "id" : "49N3gyVa3KrHyeScC5MMiJ",
+    "images" : [ {
+      "height" : 300,
+      "url" : "https://i.scdn.co/image/e627e6e1b1b340ad385e4f896742810d0d5cf9c4",
+      "width" : 300
+    } ],
+    "name" : "Your Girlfriend's Mixtape ♫",
+    "owner" : {
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/magerleagues"
+      },
+      "href" : "https://api.spotify.com/v1/users/magerleagues",
+      "id" : "magerleagues",
+      "type" : "user",
+      "uri" : "spotify:user:magerleagues"
+    },
+    "public" : true,
+    "snapshot_id" : "70ulBaSF7ONdJkIPSdvmbo6V3oLb/ibtm87tSQkuQB3ybX12xvNQF8xMaymu4RqH",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/users/magerleagues/playlists/49N3gyVa3KrHyeScC5MMiJ/tracks",
+      "total" : 455
+    },
+    "type" : "playlist",
+    "uri" : "spotify:user:magerleagues:playlist:49N3gyVa3KrHyeScC5MMiJ"
+  }, {
+    "collaborative" : false,
+    "external_urls" : {
+      "spotify" : "http://open.spotify.com/user/spotify/playlist/5UMleIsaNDK5LzZRbrbcXr"
+    },
+    "href" : "https://api.spotify.com/v1/users/spotify/playlists/5UMleIsaNDK5LzZRbrbcXr",
+    "id" : "5UMleIsaNDK5LzZRbrbcXr",
+    "images" : [ {
+      "height" : 300,
+      "url" : "https://i.scdn.co/image/3c0582c197c3f97f93e61e07204cdd8bcb9a3bb5",
+      "width" : 300
+    } ],
+    "name" : "Sleep",
+    "owner" : {
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/spotify"
+      },
+      "href" : "https://api.spotify.com/v1/users/spotify",
+      "id" : "spotify",
+      "type" : "user",
+      "uri" : "spotify:user:spotify"
+    },
+    "public" : true,
+    "snapshot_id" : "5PE5qMTL/grq9wRZFZk1Ss3Lhau6vcxOxloGjTPjkrq5c2hCK0bbBvGvUXzb4cXy",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/users/spotify/playlists/5UMleIsaNDK5LzZRbrbcXr/tracks",
+      "total" : 32
+    },
+    "type" : "playlist",
+    "uri" : "spotify:user:spotify:playlist:5UMleIsaNDK5LzZRbrbcXr"
+  } ],
+  "limit" : 20,
+  "next" : "https://api.spotify.com/v1/users/econchick/playlists?offset=20&limit=20",
+  "offset" : 0,
+  "previous" : null,
+  "total" : 92
+}

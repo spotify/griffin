@@ -1,0 +1,8 @@
+include *.rst *.txt docs/Makefile LICENSE .coveragerc .travis.yml *.ini
+recursive-include griffin *.py
+recursive-include griffin/templates *
+recursive-include griffin/themes *
+recursive-include docs *.py *.rst
+recursive-include docs/_static *
+prune docs/_build
+recursive-include tests *.py *.json *.md *.py *.raml *.yaml *.yml *.ini

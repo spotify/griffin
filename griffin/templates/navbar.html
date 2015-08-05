@@ -1,0 +1,11 @@
+<nav class="navbar navbar-fixed-top" id="grif-navbar" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a href="#" class="navbar-brand">
+        {% if site.brand_image %}<span class="navbar-logo"><img alt="Brand" src="{{ site.base_url }}/{{ site.static_dir }}/{{ site.brand_image }}"></span>{% endif %}
+        {% if site.brand_name %}<span class="navbar-title">{{ site.brand_name }}</span>{% endif %}
+        <span class="navbar-title">{{ site.title }}</span>
+      </a>
+    </div>
+  </div>
+</nav>

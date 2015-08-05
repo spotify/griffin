@@ -1,0 +1,27 @@
+{% for p in params %}
+  <dd></dd>
+    {% if p.required %}
+      <dt class="second-level" data-toggle="tooltip" data-placement="right" title="required">
+        {{ p.name }}<sup id="griffin-required">&#65121;</sup>
+      </dt>
+    {% else %}
+      <dt class="second-level">{{ p.name }}</dt>
+    {% endif %}
+  {% if p.description.raw is not none %}
+    <dd>{{ p.description.raw|markdown }}</dd>
+  {% else %}
+    <dd>{{ p.display_name }}</dd>
+  {% endif %}
+  {% if p|attrs %}
+    <dd>
+      <table id="table-param-attr">
+        {% if p.default and p.default is not none %}<tr><td class="param-name">default</td><td class="param-value"><code>{{ p.default }}</code></td></tr>{% endif %}
+        {% if p.minimum and p.minimum is not none %}<tr><td class="param-name">minimum</td><td class="param-value"><code>{{ p.minimum }}</code></td></tr>{% endif %}
+        {% if p.maximum and p.maximum is not none %}<tr><td class="param-name">maximum</td><td class="param-value"><code>{{ p.maximum }}</code></td></tr>{% endif %}
+        {% if p.minimum_length and p.minimum_length is not none %}<tr><td class="param-name">min length</td><td class="param-value"><code>{{ p.minimum_length }}</code></td></tr>{% endif %}
+        {% if p.maximum_length and p.maximum_length is not none %}<tr><td class="param-name">max length</td><td class="param-value"><code>{{ p.maximum_length }}</code></td></tr>{% endif %}
+      </table>
+    </dd>
+  {% endif %}
+
+{% endfor %}

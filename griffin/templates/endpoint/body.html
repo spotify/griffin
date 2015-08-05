@@ -1,0 +1,22 @@
+<div class="row">
+    <div class="dl-horizontal">
+      <dt>request body</dt>
+      {% for b in endpoint.body %}
+      <dd>
+        <dt class="second-level">mime type</dt>
+        <dd><code>{{ b.mime_type }}</code></dd>
+        {% if b.schema is not none %}
+          <dt class="second-level vert-padding">schema</dt>
+          <dd class="vert-padding">
+            <div class="toggle-code-wrapper">
+              <span class="toggle-code" data-toggle="collapse" data-target="#collapseCode" aria-expanded="false" aria-controls="collapseCode">
+                Toggle
+              </span>
+            </div>
+          <pre class="pre-x-scrollable collapse" id="collapseCode" style="min-height:45px;overflow-y:hidden;"><code class="json">{{ b.schema|jsonify|e }}</code></pre>
+          </dd>
+        {% endif %}
+      </dd>
+      {% endfor %}
+    </div>
+</div>
